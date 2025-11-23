@@ -1296,14 +1296,18 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
-
-		#header .logo img{
-			width: 100%;
+			overflow: hidden;      
+   	 		display: flex;
+    		justify-content: center;
+    		align-items: center;
+			
+		#header .logo img {
+    		width: 100%;
     		height: 100%;
-    		border-radius: 50%;
-    		object-fit: cover;   /* makes it fill the circle without stretching */
+    		object-fit: cover;   /* fills circle */
     		display: block;
-			//GameDevlogo
+
+		
 
 			
 		}
@@ -1669,3 +1673,4 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
