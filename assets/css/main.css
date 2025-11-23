@@ -1291,18 +1291,20 @@ input, select, textarea {
 			}
 
 		#header .logo {
-		width: 55px;
-    	height: 55px;
+    	width: 100px;
+    	height: 100px;
     	border-radius: 50%;
-    	border: 1px solid #fff;
+    	border: 2px solid #fff; 
     	display: flex;
     	justify-content: center;
     	align-items: center;
+    	overflow: hidden; 
 		}
 
-		#header .logo-container img {
-    	width: 100px;
-   	 	height: auto;
+		#header .logo img {
+    	width: 100%; 
+    	height: 100%;
+    	object-fit: cover; 
 			
 		}
 		.games-card img{
@@ -1677,6 +1679,27 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+	.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+	}
+
+	.game {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+    transition: transform 0.2s;
+	}
+
+	.game:hover {
+    transform: scale(1.05);
+	}
+
 
 
 
