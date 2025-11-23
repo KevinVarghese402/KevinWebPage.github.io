@@ -1315,9 +1315,10 @@ input, select, textarea {
     	display: flex;
      	flex-direction: column;
      	align-items: center;
+		}
 	
 
-			}
+		}
 
 		#header .content {
 			border-style: solid;
@@ -1676,6 +1677,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
