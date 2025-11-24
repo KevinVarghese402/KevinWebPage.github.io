@@ -1681,17 +1681,19 @@ input, select, textarea {
 		}
 
 		.Uniimage-grid {
-    	display: block;
+    	display: grid;
     	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     	gap: 35px;
     	padding: 3px;
 	}
 
 		.Uniimage-grid img {
-    	width: 120%;
-    	height: 120px;
-    	border-radius: 120px;
-	}
+    	width: 100%;         /* Fit inside the grid cell */
+    	height: 150px;       /* Controls how tall each image is */
+    	object-fit: cover;   /* Makes images crop nicely */
+    	border-radius: 15px; /* Rounds corners (change if you want circles) */
+}
+
 
 
 
