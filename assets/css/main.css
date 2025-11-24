@@ -1683,7 +1683,7 @@ input, select, textarea {
 		.Uniimage-grid {
     	display: grid;
     	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    	gap: 30px;
+    	gap: 35px;
     	padding: 3px;
 	}
 
@@ -1692,6 +1692,7 @@ input, select, textarea {
     	height: 145px;
     	border-radius: 150px;
 	}
+
 
 
 
