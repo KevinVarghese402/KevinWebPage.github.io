@@ -1159,7 +1159,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: none; /* was url("../../images/bg.jpg") */
-			animation: colorShift 6s ease-in-out infinite alternate;
+			animation: colorShift 15s ease-in-out infinite alternate;
 			
 			/*background-position: center;
 			background-size: cover;
