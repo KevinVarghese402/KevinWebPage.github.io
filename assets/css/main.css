@@ -1695,10 +1695,16 @@ input, select, textarea {
 		}
 		@keyframes colorShift {
 		0%   { background-color: #880808; }  /* color 1 */
-		33%  { background-color: #800020; }  /* color 2 */
-		66%  { background-color: #C41E3A; }  /* color 3 */
-		70%  { background-color: #D22B2B; }
-		100% { background-color: #880808; }  /* same as color 1 */
+		10%  { background-color: #800020; }  /* color 2 */
+		20%  { background-color: #C41E3A; }  /* color 3 */
+		30%  { background-color: #D22B2B; }
+		40% { background-color: #880808; } 
+		50% { background-color: #880808; }
+		60% { background-color: #880808; }
+		70% { background-color: #880808; }
+		80% { background-color: #880808; }
+		90% { background-color: #880808; }
+		100% { background-color: #880808; }/* same as color 1 */
 	
 }
 
