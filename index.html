@@ -4,19 +4,19 @@
 		<title>Kevin Varghese :|</title>
 		
 		<style>
-        body {
-            /* Define the animation: name (colorShift), duration (10s), timing (ease), loop (infinite) */
-            animation: colorShift 10s ease infinite;
-            height: 100vh;
-            margin: 0;
-        }
-
         /* Define the colors at different points of the animation timeline */
         @keyframes colorShift {
             0%   { background-color: #ff7675; } /* Pastel Red */
             33%  { background-color: #74b9ff; } /* Pastel Blue */
-            66%  { background-color: #55efc4; } /* Pastel Green */
+            66%  { background-color: #55EFC4 } /* Pastel Green */
             100% { background-color: #ff7675; } /* Must match 0% for a smooth loop */
+		}
+			#bg{
+			animation: colorshift 10s ease infinite; 
+		}
+			#bg:after{
+				opacity: 0 !important;
+			}
         }
     </style>
 
