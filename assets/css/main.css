@@ -1158,10 +1158,12 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
-			background-position: center;
+			background-image: none; /* was url("../../images/bg.jpg") */
+			animation: colorShift 30s ease infinite;
+			
+			/*background-position: center;
 			background-size: cover;
-			background-repeat: no-repeat;
+			background-repeat: no-repeat;*/
 			z-index: 1;
 		}
 
@@ -1692,6 +1694,23 @@ input, select, textarea {
     	height: 150px;       /* Controls how tall each image is */
     	object-fit: cover;   /* Makes images crop nicely */
     	border-radius: 15px; /* Rounds corners (change if you want circles) */
+
+	<style>
+	@keyframes colorShift {
+		0%   { background-color: #ff7675; }  /* <- color 1 */
+		33%  { background-color: #74b9ff; }  /* <- color 2 */
+		66%  { background-color: #55efc4; }  /* <- color 3 */
+		100% { background-color: #ff7675; }  /* <- same as color 1 */
+	}
+
+	#bg {
+		animation: colorShift 10s ease infinite;  /* <- speed */
+	}
+
+	#bg:after {
+		opacity: 0 !important;  /* <- hides the template's photo */
+	}
+</style>
 }
 
 
