@@ -1698,7 +1698,7 @@ input, select, textarea {
 		33%  { background-color: #74b9ff; }  /* color 2 */
 		66%  { background-color: #55efc4; }  /* color 3 */
 		100% { background-color: #ff7675; }  /* same as color 1 */
-	}
+	
 }
 
 
