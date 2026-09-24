@@ -1699,12 +1699,12 @@ input, select, textarea {
 		20% { background-color: #E97451; }  /* color 3 */
 		30% { background-color: #D22B2B; }
 		40% { background-color: #D2042D; } 
-		50% { background-color: #880808; }
-		60% { background-color: #880808; }
-		70% { background-color: #DC143C; }
-		80% { background-color: #880808; }
-		90% { background-color: #800020; }
-		100% { background-color: #880808; }/* same as color 1 */
+		50% { background-color: #D22B2B; }
+		60% { background-color: #D2042D; }
+		70% { background-color: #D22B2B; }
+		80% { background-color: #E97451; }
+		90% { background-color: #A52A2A; }
+		100%{ background-color: #880808; }/* same as color 1 */
 	
 }
 
